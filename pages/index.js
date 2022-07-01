@@ -1,5 +1,6 @@
 import React from 'react'
 import Head from 'next/head';
+import Link from 'next/link'
 
 const home = () => {
   return (
@@ -13,7 +14,7 @@ const home = () => {
 
       </Head>
 
-    <div><a href="/teams">teams</a></div>
+    <div><Link  href="/teams"><a>teams</a></Link></div>
     </>
   )
 }
