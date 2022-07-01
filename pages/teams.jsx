@@ -23,9 +23,9 @@ const teams = () => {
 
                 <div className="font-Roboto mb-28 row flex justify-center md:flex-col">
                     <div className="flex card  items-center  xl:flex-col md:mb-28">
-                        <div className="w-64  p-1 fteamImage bg-blue rounded-full">
-                            <div className=' '>
-                                <Image alt="pic" className='' src={person1} /> 
+                        <div className="w-64 h-64 relative p-1 fteamImage bg-blue rounded-full">
+                            <div className="w-60 absolute top-8 left-1">
+                                <Image alt="pic" className="object-cover w-full h-full" src={person1} />
                             </div></div>
                         <div className=" aboutteam mx-5 w-3/5 sm:w-5/6">
                             <div className="teampost mb-4 text-lg font-light">CO-FOUNDER and CTO</div>
@@ -36,8 +36,8 @@ const teams = () => {
                     </div>
                     <div className="flex card items-center xl:flex-col">
                         <div className="w-64 h-64 relative p-1 fteamImage bg-blue rounded-full">
-                            <div className='w-60 absolute top-8 left-1'>
-                                <Image alt="pic" className='object-cover w-full h-full' src={person2} /></div></div>
+                            <div className="w-60 absolute top-8 left-1">
+                                <Image alt="pic" className="object-cover w-full h-full" src={person2} /></div></div>
                         <div className=" aboutteam mx-5 w-3/5 sm:w-5/6">
                             <div className="teampost mb-4 text-lg font-light">CO-FOUNDER & CEO</div>
                             <div className="teamname my-4 text-4xl font-medium">Manasa Madapu </div>
@@ -48,7 +48,7 @@ const teams = () => {
                 </div>
                 <div className="font-Roboto mb-28 row flex justify-center md:flex-col">
                     <div className="flex card items-center xl:flex-col">
-                        <div className="w-64 h-64   p-1 relative fteamImage bg-blue rounded-full"><div className='w-60 absolute top-8 left-1'><Image alt="pic" className='object-cover w-full h-full' src={person3} /></div></div>
+                        <div className="w-64 h-64   p-1 relative fteamImage bg-blue rounded-full"><div className="w-60 absolute top-8 left-1"><Image alt="pic" className="object-cover w-full h-full" src={person3} /></div></div>
                         <div className=" aboutteam mx-5 w-3/5 sm:w-5/6">
                             <div className="teampost mb-4 text-lg font-light">SOFTWARE ENGINEER</div>
                             <div className="teamname my-4 text-4xl font-medium"> Pramodh Mahajan</div>
@@ -57,18 +57,18 @@ const teams = () => {
                         </div>
                     </div>
                     <div className="flex card items-center xl:flex-col">
-                        <div className="w-64 h-64   p-1 relative fteamImage bg-blue rounded-full"><div className='w-60 absolute top-8 left-1'><Image alt="pic" className='object-cover w-full h-full' src={person4}/></div></div>
+                        <div className="w-64 h-64   p-1 relative fteamImage bg-blue rounded-full"><div className="w-60 absolute top-8 left-1"><Image alt="pic" className="object-cover w-full h-full" src={person4} /></div></div>
                         <div className=" aboutteam mx-5 w-3/5 sm:w-5/6">
                             <div className="teampost mb-4 text-lg font-light">BUSINESS ANALYST</div>
                             <div className="teamname my-4 text-4xl font-medium"> Srilekha Munnelli</div>
-                            <div className="aboutteampara text-lg font-light"> Srilekha is a real people's person. Her experience of working in social sector prior to joining betalectic gives her an advantage to seamlessly act as a bridge between the Client and the Tech team. Her enthusiasm and cheerful nature keeps the team on full of beans.</div>
+                            <div className="aboutteampara text-lg font-light"> Srilekha is a real peoples person. Her experience of working in social sector prior to joining betalectic gives her an advantage to seamlessly act as a bridge between the Client and the Tech team. Her enthusiasm and cheerful nature keeps the team on full of beans.</div>
                             <div className="socialteam">linked in </div>
                         </div>
                     </div>
                 </div>
                 <div className="font-Roboto mb-28 row flex justify-center md:flex-col">
                     <div className="flex card items-center xl:flex-col">
-                        <div className="w-64 h-64   p-1 relative fteamImage bg-blue rounded-full"><div className='w-60 absolute top-8 left-1'><Image alt="pic" className='object-cover w-full h-full' src={person5} /></div></div>
+                        <div className="w-64 h-64   p-1 relative fteamImage bg-blue rounded-full"><div className="w-60 absolute top-8 left-1"><Image alt="pic" className="object-cover w-full h-full" src={person5} /></div></div>
                         <div className=" aboutteam mx-5 w-3/5 sm:w-5/6">
                             <div className="teampost mb-4 text-lg font-light">SOFTWARE ENGINEER</div>
                             <div className="teamname my-4 text-4xl font-medium">Shubham Joshi </div>
@@ -77,7 +77,7 @@ const teams = () => {
                         </div>
                     </div>
                     <div className="flex card items-center xl:flex-col">
-                        <div className="w-64 h-64   p-1 relative fteamImage bg-blue rounded-full"><div className='w-60 absolute top-8 left-1'><Image alt="pic" className='object-cover w-full h-full' src={person6}/></div></div>
+                        <div className="w-64 h-64   p-1 relative fteamImage bg-blue rounded-full"><div className="w-60 absolute top-8 left-1"><Image alt="pic" className="object-cover w-full h-full" src={person6} /></div></div>
                         <div className=" aboutteam mx-5 w-3/5 sm:w-5/6">
                             <div className="teampost mb-4 text-lg font-light">SOFTWARE ENGINEER</div>
                             <div className="teamname my-4 text-4xl font-medium"> Venkata Krishna Inti</div>
@@ -88,7 +88,7 @@ const teams = () => {
                 </div>
                 <div className="font-Roboto mb-28 row flex justify-center md:flex-col">
                     <div className="flex card items-center xl:flex-col">
-                        <div className="w-64 h-64   p-1 relative fteamImage bg-blue rounded-full"><div className='w-60 absolute top-8 left-1'><Image alt="pic" className='object-cover w-full h-full' src={person7} /></div></div>
+                        <div className="w-64 h-64   p-1 relative fteamImage bg-blue rounded-full"><div className="w-60 absolute top-8 left-1"><Image alt="pic" className="object-cover w-full h-full" src={person7} /></div></div>
                         <div className=" aboutteam mx-5 w-3/5 sm:w-5/6">
                             <div className="teampost mb-4 text-lg font-light">SOFTWARE ENGINEER</div>
                             <div className="teamname my-4 text-4xl font-medium">Himanshu Dhiman </div>
@@ -97,7 +97,7 @@ const teams = () => {
                         </div>
                     </div>
                     <div className="flex card items-center xl:flex-col">
-                        <div className="w-64 h-64   p-1 relative fteamImage bg-blue rounded-full"><div className='w-60 absolute top-8 left-1'><Image alt="pic" className='object-cover w-full h-full' src={person8}/></div></div>
+                        <div className="w-64 h-64   p-1 relative fteamImage bg-blue rounded-full"><div className="w-60 absolute top-8 left-1"><Image alt="pic" className="object-cover w-full h-full" src={person8} /></div></div>
                         <div className=" aboutteam mx-5 w-3/5 sm:w-5/6">
                             <div className="teampost mb-4 text-lg font-light">SOFTWARE ENGINEER</div>
                             <div className="teamname my-4 text-4xl font-medium"> Sai Kiran</div>
@@ -108,7 +108,7 @@ const teams = () => {
                 </div>
                 <div className="font-Roboto mb-28 row flex justify-center md:flex-col">
                     <div className="flex card items-center xl:flex-col">
-                        <div className="w-64 h-64   p-1 relative fteamImage bg-blue rounded-full"><div className='w-60 absolute top-8 left-1'><Image alt="pic" className='object-cover w-full h-full' src={person9} /></div></div>
+                        <div className="w-64 h-64   p-1 relative fteamImage bg-blue rounded-full"><div className="w-60 absolute top-8 left-1"><Image alt="pic" className="object-cover w-full h-full" src={person9} /></div></div>
                         <div className=" aboutteam mx-5 w-3/5 sm:w-5/6">
                             <div className="teampost mb-4 text-lg font-light">APPLICATIONS DEVELOPER</div>
                             <div className="teamname my-4 text-4xl font-medium">Sowmya </div>
@@ -117,7 +117,7 @@ const teams = () => {
                         </div>
                     </div>
                     <div className="flex card items-center xl:flex-col">
-                        <div className="w-64 h-64   p-1 relative fteamImage bg-blue rounded-full"><div className='w-60 absolute top-8 left-1'><Image alt="pic" className='object-cover w-full h-full' src={person10}/></div></div>
+                        <div className="w-64 h-64   p-1 relative fteamImage bg-blue rounded-full"><div className="w-60 absolute top-8 left-1"><Image alt="pic" className="object-cover w-full h-full" src={person10} /></div></div>
                         <div className=" aboutteam mx-5 w-3/5 sm:w-5/6">
                             <div className="teampost mb-4 text-lg font-light">APPLICATION DEVELOPER</div>
                             <div className="teamname my-4 text-4xl font-medium"> Rajesh Nautiyal</div>
