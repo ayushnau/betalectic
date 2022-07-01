@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: "sohne-var";
+    src: url("../static/font/sohne.woff2") format('woff2');
+  }
