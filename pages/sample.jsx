@@ -30,7 +30,7 @@ const sample = () => {
             <li className='inline-block sm:block sm:my-7 sm:mx-2 sm:border-navbar sm:border-2 whitespace-nowrap mx-4 rounded bg px-2 py-1 hover:bg-red-800 hover:text-blue-700 '><a href="/">Contact</a> </li>
           </ul>
           <div onClick={handleClick} className='hamburger ml-auto hidden sm:flex  justify-end'>
-            <span>menu</span>
+            <span>Menu</span>
             <svg viewBox="0 0 100 80" width="40" height="40" fill='#657c98'>
               <rect width="100" height="15"></rect>
               <rect y="30" width="100" height="15"></rect>
