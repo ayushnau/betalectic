@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 const contactus = () => {
     return (
-        <div className="mastercontainer px-4 py-16 mx-auto">
+        <div className="mastercontainer px-4 py-16 mx-auto w-full md:w-3/4">
             <div className="bar text-xl ml-2 flex align-middle">
                 <span className='inline-flex align-middle'>
                     <span className="w-7 h-7 inline-block relative rounded-full mr-1">
@@ -17,7 +17,7 @@ const contactus = () => {
 
             <div className="section font-gothamnarrow-medium ">
                 <div className="heading font-gothamnarrow-bold text-7xl mb-8">Get in Touch with Us</div>
-                <p className="font-gothamnarrow-light mb-4">
+                <p className="font-gothamnarrow-light mb-4 ml-3">
 
                     How can we help you? Leave your contact details and we will get back to you..</p>
                 <div className="font-gothamnarrow-bold text-xl mb-1 flex align-middle">

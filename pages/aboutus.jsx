@@ -5,7 +5,7 @@ import Image from 'next/image'
 const aboutus = () => {
   return (
    <>
-      <div className="w-full bg-[url('https://betalectic.com/utouch/img/clouds19.png')] bg-contain bg-no-repeat">
+      <div className="w-full bg-[url('https://betalectic.com/utouch/img/clouds19.png')] bg-cover bg-no-repeat">
         <div className="px-4 py-16 w-full md:w-3/4 mx-auto ">
           <div  className="wrapper flex justify-between w-full h-full flex-col md:flex-row">
             <div className="md:w-7/12 w-full">
