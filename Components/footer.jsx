@@ -9,7 +9,7 @@ import linkedin from '../static/linkedin.png'
 const footer = () => {
     return (
         <div className="masterContainer relative text-slate-400 bg-slate-900 font-gothamnarrow-light py-16 bg-[url('https://betalectic.com/utouch/img/clouds.png')]">
-            <div className="w-full md:w-3/4 flex flex-wrap px-4 mx-auto justify-center">
+            <div className="w-full md:w-3/4 flex flex-wrap md:flex-nowrap px-4 mx-auto justify-center">
                 <div className="firstsection w-full  md:w-5/12 pr-4 ">
                     <div className='font-gothamnarrow-black text-5xl mb-8 text-white'>Betaelectic</div>
                     <p className="font-bold leading-snug">We think beta version of an idea makes or breaks an entrepreneur. That is what we intend to deliver – a minimum viable product, developed on ‘ship-centric’ principles.</p>
@@ -19,7 +19,7 @@ const footer = () => {
                     </p>
 
                 </div>
-                <div className="secondsection w-full ml-auto pt-2 Um=d:w-2/12">
+                <div className="secondsection w-full ml-auto pt-2 md:w-2/12">
                     <div className="heading font-gothamnarrow-black text-2xl mb-8 text-white">
                         Useful Links
                     </div>
