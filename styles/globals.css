@@ -3,6 +3,27 @@
 @tailwind utilities;
 
 @font-face {
-    font-family: "sohne-var";
-    src: url("../static/font/sohne.woff2") format('woff2');
+    font-family: "GothamNarrow-black";
+    src: url("../static/font/Gotham-Narrow/GothamNarrow-Black.otf");
+    font-weight: normal;
+    font-style: normal; 
+  }
+@font-face {
+    font-family: "GothamNarrow-bold";
+    src: url("../static/font/Gotham-Narrow/GothamNarrow-Bold.otf");
+    font-weight: normal;
+    font-style: normal; 
+  }
+@font-face {
+    font-family: "GothamNarrow-medium";
+    src: url("../static/font/Gotham-Narrow/GothamNarrow-Medium.otf");
+    font-weight: normal;
+    font-style: normal; 
+  }
+
+@font-face {
+    font-family: "GothamNarrow-Light";
+    src: url("../static/font/Gotham-Narrow/GothamNarrow-Light.otf");
+    font-weight: normal;
+    font-style: normal; 
   }
