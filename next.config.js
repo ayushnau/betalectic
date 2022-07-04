@@ -2,7 +2,7 @@
 const nextConfig = {
   
   images: {
-    domains: ['localhost','img.icons8.com','betalectic.com'],   
+    domains: ['res.cloudinary.com','img.icons8.com','betalectic.com'],   
 },
 }
 
