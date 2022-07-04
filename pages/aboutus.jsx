@@ -22,7 +22,7 @@ const aboutus = () => {
             </div>
             <div className='md:w-4/12 w-full'>
               <div className=" w-full md:h-full h-48  relative">
-                <Image src={"https://betalectic.com/utouch/img/man.png"} className="" layout='fill' objectFit='contain' />
+                <Image alt='pic' src={"https://betalectic.com/utouch/img/man.png"} className="" layout='fill' objectFit='contain' />
               </div>
             </div>
           </div>

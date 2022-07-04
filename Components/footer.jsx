@@ -19,7 +19,7 @@ const footer = () => {
                     </p>
 
                 </div>
-                <div className="secondsection w-full ml-auto pt-2 md:w-2/12">
+                <div className="secondsection w-full ml-auto pt-2 Um=d:w-2/12">
                     <div className="heading font-gothamnarrow-black text-2xl mb-8 text-white">
                         Useful Links
                     </div>
@@ -34,7 +34,7 @@ const footer = () => {
                     <div className="font-bold flex align-middle">
 
                         <div className="w-7 h-7 inline-block relative rounded-full mr-1">
-                            <Image src={message} className="rounded-full" layout='fill' objectFit='cover' />
+                            <Image alt='pic' src={message} className="rounded-full" layout='fill' objectFit='cover' />
                         </div>
 
                         <div className="flex-1">contact@betaelectic.com</div></div>
@@ -42,14 +42,14 @@ const footer = () => {
                             <Link href="/">
                                 <a>
                                     <div className="w-7 h-7 inline-block relative rounded-full mr-1">
-                                        <Image  src={"https://img.icons8.com/color/48/000000/linkedin.png"} className="rounded-full" layout='fill' objectFit='cover' />
+                                        <Image alt='pic'  src={"https://img.icons8.com/color/48/000000/linkedin.png"} className="rounded-full" layout='fill' objectFit='cover' />
                                     </div>
                                 </a>
                             </Link>
                             <Link  href="/">
                                 <a>
                                     <div className="w-7 h-7 inline-block relative rounded-full mr-1">
-                                        <Image  src={"https://img.icons8.com/color/48/000000/twitter-squared.png"} className="rounded-full" layout='fill' objectFit='cover' />
+                                        <Image  alt='pic' src={"https://img.icons8.com/color/48/000000/twitter-squared.png"} className="rounded-full" layout='fill' objectFit='cover' />
                                     </div>
                                 </a>
                             </Link>
@@ -60,7 +60,7 @@ const footer = () => {
             <Link href="/">
                 <a>
                     <div className="w-16  h-16 hover:shadow-lg hover:shadow-blue-700  rounded-full absolute -bottom-7 left-1/2 -translate-x-1/3">
-                        <Image src={Upward} className="rounded-full" layout='fill' objectFit='cover' />
+                        <Image alt='pic' src={Upward} className="rounded-full" layout='fill' objectFit='cover' />
 
                     </div>
                 </a>

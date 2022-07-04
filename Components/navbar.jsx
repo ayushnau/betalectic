@@ -4,7 +4,7 @@ import Link from 'next/link'
 import logo from '../static/betalectic_logo.png'
 
 
-const sample = () => {
+const Navbar = () => {
   const [navdisplay, setnavdisplay] = useState({ display: 'inline-block' })
   useEffect(() => {
     const handleResize = () => {
@@ -35,7 +35,7 @@ const sample = () => {
 
     <>
       <div className="header relative font-gothamnarrow-medium z-50">
-     
+      <div className="forpsedoelement"></div>
         <div className='flex flex-wrap  p-2rem relative top-0  text-navbar uppercase font-bold items-center justify-between w-full md:w-3/4 mx-auto'>
 
           <div className="logo w-75 h-22 ">{<Image alt="pic" className='w-full h-full object-cover' src={logo} />}</div>
@@ -66,5 +66,5 @@ const sample = () => {
   )
 }
 
-export default sample
+export default Navbar
 
